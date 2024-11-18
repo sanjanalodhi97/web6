@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+}
+#cnav{
+    width: 40%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 60%;
+   
+}
+#cnav ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#cnav li{
+    margin-left: 25%;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    background-color:white;
+    display: flex;
+    justify-content: start;
+    border: 1px solid rgba(12, 11, 11, 0.07) ;
+
+}
+nav ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+nav ul li{
+    list-style:none;
+    font-size: 17px;
+    margin-left: 10%;
+     
+}
+nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+h1{
+    font-size: 50px;
+    margin-right: 20%;
+}
+#bnav{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+#bnav ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#bnav li{
+    margin-left: 15%;
+    font-size: 20px;
+}
+.con1{
+    width: 100%;
+    height: 70%;
+    background-color: aquamarine;
+    background-image: url("https://img.freepik.com/premium-photo/group-people-sitting-around-conference-table-with-laptops-city-background_862335-25911.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.con1 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    font-size: 60px;
+     margin-left: 20%;
+}
+p{
+    font-size: 15px;
+    margin-left: 20%;
+}
+.container2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.con2{
+    width: 80%;
+    height: 30%;
+    background-color:white;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+form{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+input{
+    width: 300px;
+    height: 20px;
+    margin-top: 3%;
+}
+#btn{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 25px;
+    border: 1 px solid blue;
+}
+.d1{
+    width: 22%;
+    height: 100%;
+     background-color: antiquewhite;
+     border-radius: 25px;
+
+}
+.d1 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.con3{
+    width: 100%;
+    height: 60%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.container3{
+    width: 100%;
+    height: 100%;
+    
+}
+h3{
+    font-size: 60px;
+    margin-left: 20%;
+
+}
+.con4{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+.dim{
+    width: 30%;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 25px;
+}
+.dim img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+h4{
+    margin-left: 20%;
+    font-size: 20px;
+}
+h5{
+    margin-left: 20%;
+    font-size: 35px;
+}
+
+.container4{
+    width: 100%;
+    height: 100%;
+
+}
+
+.con5{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+.dim{
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 25px;
+}
+.dim img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+h4{
+    margin-left: 20%;
+    font-size: 20px;
+}
+h5{
+    margin-left: 20%;
+    font-size: 35px;
+}
+
+
+
+
+.container5{
+    width: 100%;
+    height: 100%;
+
+}
+#hg{
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.con6{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+.dim{
+    width: 30%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: white;
+}
+.dim img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+h4{
+    margin-left: 20%;
+    font-size: 20px;
+}
+h5{
+    margin-left: 20%;
+    font-size: 35px;
+}
+
+
+.container6{
+    width: 100%;
+    height: 100%;
+
+}
+
+.con7{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+.dim{
+    width: 30%;
+    height: 100%;
+    border-radius: 25px;
+    background-color:antiquewhite;
+}
+h6{
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+#p1{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.siteminder.com/wp-content/uploads/2023/03/hotel-reservation-system.png
+
+
+
+
+
+https://www.dotsquares.com/img/service-images/travel-who-we.png
